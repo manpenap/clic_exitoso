@@ -105,7 +105,7 @@ import Button from "./ui/button.astro";
         let json = await response.json();
         if (response.status == 200) {
           result.classList.add("text-green-500");
-          result.innerHTML = json.message;
+          result.innerHTML = "Mensaje enviado en forma correcta!";
         } else {
           console.log(response);
           result.classList.add("text-red-500");
