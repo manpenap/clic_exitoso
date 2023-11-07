@@ -1,0 +1,30 @@
+---
+import { Picture } from "@astrojs/image/components";
+import logo from "@assets/logo.png"
+---
+
+<div class="mt-16 h-4/5 flex flex-col items-center md:mt-0">
+    <div class="w-full flex justify-center">
+      <Picture
+        src={logo}
+        alt="Mascota clic exitoso"
+        widths={[200, 400, 600]}
+        aspectRatio="4:3"
+        sizes="(max-width: 400px) 100vw, 300px"
+    
+      />
+    </div>
+
+    <h2 class="px-12 text-center max-w-xl text-4xl text-transparent bg-clip-text bg-gradient-to-br from-violet-600 to-pink-600 lg:text-5xl font-bold lg:tracking-tight">
+      Atrae a Clientes Potenciales y aumenta tus Ventas 
+    </h2>
+    <p class="text-2xl max-w-xl font-bold px-8 text-center mt-4 text-slate-600">
+      Estamos aquí para ayudarte a 
+      <span class="text-pink-600">impulsar </span>tu negocio de manera
+      <span class="text-pink-600">cómoda </span> y <span class="text-pink-600">eficiente</span>. 
+      Sabemos lo importante que es tener una presencia 
+      <span class="text-pink-600">online </span>efectiva, y nuestras landing pages pueden marcar la 
+      <span class="text-pink-600">diferencia. </span> Descubre cómo podemos ayudarte.
+      
+    </p>
+  </div>

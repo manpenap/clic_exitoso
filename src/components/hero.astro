@@ -1,0 +1,30 @@
+---
+import { Picture } from "@astrojs/image/components";
+import heroImage from "assets/hero.png";
+import sloth from "@assets/sloth.png";
+import Link from "@components/ui/link.astro";
+import { Icon } from "astro-icon";
+---
+
+<main
+  class="grid h-full bg-gray-950 lg:grid-cols-2 place-items-center pt-8 pb-8 md:pt-12 md:pb-24">
+  <div class="py-6 order-1 ">
+    <Picture
+      src={sloth}
+      alt="Astronaut in the air"
+      widths={[200, 400, 600]}
+      aspectRatio="4:3"
+      sizes="(max-width: 800px) 100vw, 620px"
+      loading="eager"
+      format="avif"
+    />
+  </div>
+  <div>
+    <h1
+      class="px-4 text-center text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-violet-600 to-pink-600 lg:text-6xl xl:text-7xl lg:tracking-tight xl:tracking-tighter">
+      Transforma tu Negocio con Landing Pages de Alto Impacto
+    </h1>
+
+
+  </div>
+</main>

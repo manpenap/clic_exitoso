@@ -1,0 +1,71 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+
+const features = [
+  {
+    title: "Diseño Personalizado",
+    description:
+      "Cada landing page se adapta a las necesidades específicas de tu negocio.",
+    icon: "fluent:design-ideas-16-filled",
+  },
+  {
+    title: "Aumenta Conversiones",
+    description:
+      "Transforma visitantes en clientes potenciales y ventas.",
+    icon: "icon-park:increase",
+  },
+  {
+    title: "Promoción Efectiva",
+    description:
+      "Destaca ofertas especiales, eventos y más.",
+    icon: "bi:megaphone",
+  },
+  {
+    title: "Mejora tu Presencia en Línea",
+    description:
+      "Impulsa tu visibilidad en motores de búsqueda y redes sociales.",
+    icon: "mdi:smartphone-link",
+  },
+  {
+    title: "Generación de Leads",
+    description:
+      "Construye una lista de clientes potenciales interesados en tus productos o servicios.",
+    icon: "mdi:leads",
+  },
+  {
+    title: "Precio Conveniente",
+    description:
+      "Desde $19.990 al mes puedes tener tu landing page.",
+    icon: "fa:money",
+  },
+
+];
+---
+
+<div class="flex flex-col items-center mt-32">
+  <h2 class="text-center text-4xl text-transparent bg-clip-text bg-gradient-to-br from-violet-600 to-pink-600 lg:text-5xl font-bold lg:tracking-tight">
+    Beneficios Claves
+  </h2>
+  <p class="text-2xl max-w-xl  px-8 font-bold text-center mt-4 text-slate-600">
+    Nuestras 
+    <span class="text-pink-600">landing pages  </span>sobresalen en el mundo  
+    <span class="text-pink-600">digital.</span> Diseñamos cada 
+    <span class="text-pink-600">detalle </span> para que tu empresa se destaque y 
+    <span class="text-pink-600">convierta</span> visitantes en clientes.
+  </p>
+</div>
+
+<ul class="grid mx-8 md:mx-auto mt-8 m-auto bg-slate-100 max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+  {
+    features.map((item) => (
+      <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+        <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+          <Icon name={item.icon} />
+        </div>
+        <p class="text-center font-extrabold text-xl">{item.title}</p>
+        <p class="text-center text-offset text-base">{item.description}</p>
+      </li>
+    ))
+  }
+</ul>

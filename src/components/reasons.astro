@@ -1,0 +1,78 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+import { Picture } from "@astrojs/image/components";
+import logoFinal from "@assets/logo_final.png"
+
+import { isRenderTemplateResult } from "astro/dist/runtime/server/render/astro";
+
+const features = [
+  {
+    title: "Consulta Inicial",
+    description:
+      "Nos contactaremos contigo para comprender tus necesidades y objetivos.",
+    icon: "healthicons:1",
+  },
+  {
+    title: "Diseño Personalizado",
+    description:
+      "Creamos una landing page a la medida, que refleje tu marca.",
+    icon: "healthicons:2",
+  },
+  {
+    title: "Optimización",
+    description:
+      "Aseguramos que la página esté optimizada para conversiones.",
+    icon: "healthicons:3",
+  },
+  {
+    title: "Lanzamiento",
+    description:
+      "Publicamos la landing page y te proporcionamos todas las herramientas necesarias.",
+    icon: "healthicons:4",
+  },
+  {
+    title: "Seguimiento y Mejora",
+    description:
+      "Monitoreamos el rendimiento y ajustamos según sea necesario.",
+    icon: "healthicons:5",
+  },
+];
+---
+
+<div class="flex flex-col items-center mt-24">
+  <h2 class="text-center text-4xl text-transparent bg-clip-text bg-gradient-to-br from-violet-600 to-pink-600 lg:text-5xl font-bold lg:tracking-tight">
+    ¿Cómo Funciona?
+  </h2>
+</div>
+
+
+
+<div class="mx-4 mt-12 flex flex-wrap ">
+  {
+    features.map((item) => (
+      <div class="flex flex-row mb-8 max-w-sm mx-auto">
+        <div class="flex justify-center pl-8 pr-4 ">
+          <Icon name={item.icon} class="h-12 text-white bg-slate-600 border rounded-full w-12" />
+        </div>
+        
+        <div>
+          <h2 class="font-extrabold text-xl text-pink-600">{item.title}</h2>
+          <p class="pr-12">{item.description}</p>
+        </div>
+        
+      </div>
+    ))
+  }
+</div>
+
+<div class="w-full flex justify-center">
+  <Picture
+    src={logoFinal}
+    alt="Astronaut in the air"
+    widths={[200, 400, 600]}
+    aspectRatio="4:3"
+    sizes="(max-width: 400px) 100vw, 300px"
+
+  />
+</div>

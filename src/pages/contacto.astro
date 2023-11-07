@@ -1,0 +1,50 @@
+---
+import Contactform from "@components/contactform.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Layout from "@layouts/Layout.astro";
+import { Icon } from "astro-icon";
+import { Picture } from "@astrojs/image/components";
+import logo from "@assets/logo_final.png"
+---
+
+<Layout title="Contacto">
+  <Container>
+    
+
+    
+    <Sectionhead>
+      <Fragment slot="title">Contacto</Fragment>
+      <Fragment slot="desc">Estamos aquí para ayudarte</Fragment>
+    </Sectionhead>
+
+    <div class="w-full flex justify-center">
+      <Picture
+        src={logo}
+        alt="Mascota clic exitoso"
+        widths={[200, 400, 600]}
+        aspectRatio="4:3"
+        sizes="(max-width: 400px) 100vw, 300px"
+    
+      />
+    </div>
+
+    <div class="grid mx-auto px-8 justify-center  gap-10 max-w-4xl ">
+      <div class= " max-w-xl">
+        <p class="text-lg text-center leading-relaxed text-slate-500 mt-3">
+          ¿Tienes alguna duda?<br>
+          Completa el formulario y te responderemos a la brevedad.
+        </p>
+        <div class="mt-5 mb-5">
+          <div class="flex items-center mt-2 space-x-2 text-gray-600">
+            <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
+            <span>Santiago, Chile</span>
+          </div>
+
+      </div>
+      <div>
+        <Contactform />
+      </div>
+    </div>
+  </Container>
+</Layout>
