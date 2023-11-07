@@ -4,7 +4,7 @@ title: " El Secreto Mejor Guardado en Marketing: Landing Pages Personalizadas"
 snippet: "Descubre cómo las Landing Pages personalizadas se convierten en tu herramienta más poderosa. En este artículo, desvelamos los beneficios ocultos y las razones irrefutables para tener tu propia Landing Page. Aprende a definir objetivos claros y maximiza tu éxito en marketing digital. ¡No esperes más, revela el secreto del éxito hoy mismo!"
 publishDate: "2023-11-05 15:36"
 image: {
-    src: "https://pixabay.com/get/g6e413afc6d005bf10ec3c5c2e3d824e25ba367c15d5a25dbb11f22323a386b38cd3981f23c2c9bc117eeb07b3378a638_640.png",
+    src: "https://cdn.pixabay.com/photo/2016/08/20/06/44/e-commerce-1606962_960_720.png",
     alt: "landing pages personalizadas"
 }
 
