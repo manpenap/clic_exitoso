@@ -8,7 +8,7 @@ image: {
     alt: "¿landing pages o páginas de inicio?"
 }
 
-category: "Landing Pages"
+category: "Marketing Digital"
 author: "manpenap"
 tags: [landing page, marketing digital]
 
