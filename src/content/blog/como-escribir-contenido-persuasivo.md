@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Seducción Digital: ¿Cómo Escribir Contenido Persuasivo en Landing Pages?"
 snippet: "Descubre cómo el contenido persuasivo en Landing Pages puede impulsar tus ventas y atraer a más clientes a tu negocio de servicios personales. Aprende estrategias efectivas, consejos prácticos y ejemplos reales para mejorar la persuasión en tus páginas de destino. ¡Potencia tus conversiones y maximiza tu éxito en el mundo digital"
-publishDate: "2023-11-14 12:20"
+publishDate: "2023-11-14 09:35"
 image: {
     src: "https://images.pexels.com/photos/1181511/pexels-photo-1181511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "¿landing pages o páginas de inicio?"
