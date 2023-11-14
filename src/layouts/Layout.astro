@@ -6,6 +6,7 @@ import "@fontsource-variable/inter/index.css";
 
 export interface Props {
   title: string;
+  description: string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
@@ -15,11 +16,15 @@ const resolvedImageWithDomain = new URL(
   Astro.site
 ).toString();
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
 
 const makeTitle = title
   ? title + " | " + "Clic Exitoso"
   : "Clic Exitoso";
+
+const makeDescription = description
+  ? description
+  : "En Clic Exitoso ayudamos a potenciar tu negocio creando Landing Pages personalizadas y de alto impacto. Convierte clics en clientes y aumenta tus ventas online ahora"
 ---
 
 <!DOCTYPE html>
@@ -35,7 +40,7 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="En Clic Exitoso ayudamos a potenciar tu negocio creando Landing Pages personalizadas y de alto impacto. Convierte clics en clientes y aumenta tus ventas online ahora"
+      description={makeDescription}
       canonical={canonicalURL}
       
       openGraph={{
