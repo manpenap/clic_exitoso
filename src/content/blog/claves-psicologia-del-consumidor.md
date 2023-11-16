@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Influye en las Compras con las Claves de la Psicología del Consumidor"
 snippet: "Aprende cómo la psicología del consumidor puede aumentar tus ventas. Aprende estrategias de marketing emocional. ¡Aplica estas claves hoy!"
-publishDate: "2023-11-16 12:20"
+publishDate: "2023-11-16 11:54"
 image: {
     src: "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Psicología del consumidor online"
