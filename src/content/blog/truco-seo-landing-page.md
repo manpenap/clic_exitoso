@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "El Truco del SEO en Landing Pages que te Sorprenderá"
 snippet: "SEO Sorprendente para Landing Pages"
-publishDate: "2023-11-18 12:20"
+publishDate: "2023-11-18 15:05"
 image: {
     src: "https://images.pexels.com/photos/9822732/pexels-photo-9822732.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Truco para SEO"
