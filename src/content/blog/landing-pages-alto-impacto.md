@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Landing Pages de Alto Impacto: Diseño Profesional que Impulsa Ventas"
 snippet: "Descubre cómo el diseño de Landing Pages de alto impacto puede aumentar tus ventas. Aprende estrategias de diseño profesional en este artículo."
-publishDate: "2023-11-14 12:00"
+publishDate: "2023-11-20 10:20"
 image: {
     src: "https://images.pexels.com/photos/11813187/pexels-photo-11813187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Landing Pages de alto impacto"
