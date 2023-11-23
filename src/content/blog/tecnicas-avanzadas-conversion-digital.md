@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Técnicas Avanzadas de Conversión en Marketing Digital: ¡Aplica Ahora!"
 snippet: "Conoce las estrategias más efectivas para aumentar las conversiones en tu marketing digital. Este artículo te enseñará técnicas avanzadas que puedes aplicar de inmediato."
-publishDate: "2023-11-22 13:30"
+publishDate: "2023-11-22 21:30"
 image: {
     src: "https://images.pexels.com/photos/5673488/pexels-photo-5673488.jpeg",
     alt: "Conversión en Marketing Digital"
