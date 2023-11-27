@@ -2,7 +2,7 @@
 draft: false
 title: ¿Por Qué Deberías Preocuparte por los Leads?
 snippet: "Descubre la importancia de los leads en el marketing digital y cómo pueden impulsar tus resultados. Aprende por qué deberías prestarles atención."
-publishDate: "2023-11-27 12:25"
+publishDate: "2023-11-27 12:30"
 image: {
     src: "https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "¿Por Qué Deberías Preocuparte por los Leads?"
