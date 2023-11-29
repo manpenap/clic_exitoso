@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Estrategias Efectivas para Atraer Leads"
 snippet: "Aprende las mejores tácticas para atraer leads y convertir visitantes en clientes potenciales. Aprende cómo generar más oportunidades de venta."
-publishDate: "2023-11-26 09:35"
+publishDate: "2023-11-29 11:35"
 image: {
     src: "https://images.pexels.com/photos/3183170/pexels-photo-3183170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt:  "Estrategias Efectivas para Atraer Leads"
