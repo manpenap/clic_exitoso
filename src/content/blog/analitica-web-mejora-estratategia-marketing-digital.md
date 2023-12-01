@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Analítica Web: Mejora tu Estrategia de Marketing Online"
 snippet: "La analítica web puede potenciar tu estrategia de marketing online. Aprende las mejores prácticas y herramientas clave para el éxito."
-publishDate: "2023-11-14 09:35"
+publishDate: "2023-12-01 11:55"
 image: {
     src: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Analítica Web"
