@@ -10,7 +10,7 @@ image: {
 
 category: "Analítica y Métricas"
 author: "manpenap"
-tags: [analítica y métricas, marketing digital]
+tags: [analítica y métricas, marketing digital,landing page]
 
 ---
 **La analítica web** es el faro luminoso en el vasto mar del **marketing digital**. Es la herramienta fundamental que permite navegar con certeza en un mundo de datos y métricas. En la era digital, la analítica no es solo una opción, sino un **imperativo** para impulsar estrategias efectivas. 
