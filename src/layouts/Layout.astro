@@ -3,6 +3,7 @@ import { SEO } from "astro-seo";
 import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
 import "@fontsource-variable/inter/index.css";
+import Basehead from "@components/basehead.astro";
 
 export interface Props {
   title: string;
@@ -29,33 +30,7 @@ const makeDescription = description
 
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" />
-    <link rel="sitemap" href="/sitemap-index.xml" />
-    <meta name="generator" content={Astro.generator} />
-
-    <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
-    <SEO
-      title={makeTitle}
-      description={makeDescription}
-      canonical={canonicalURL}
-      
-      openGraph={{
-        basic: {
-          url: canonicalURL,
-          type: "website",
-          title: `Clic Exitoso - Eficiencia y comodidad para tu negocio.`,
-          image: resolvedImageWithDomain,
-        },
-        image: {
-          alt: "Página de inicio Clic Exitoso",
-        },
-      }}
-    />
-  </head>
+  <Basehead title={makeTitle} description={makeDescription}/>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZDK4F0FKY"></script>
   <script>
