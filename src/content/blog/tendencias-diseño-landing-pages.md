@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Tendencias en Diseño de Landing Pages"
 snippet: "Descubre las últimas tendencias que están revolucionando el diseño de Landing Pages. Aprende cómo implementar estas innovaciones para mejorar la conversión y la experiencia del usuario. Obtén consejos expertos y ejemplos prácticos para crear Landing Pages efectivas. ¡Optimiza tu estrategia digital hoy mismo!"
-publishDate: "2023-11-30 12:02"
+publishDate: "2023-12-04 09:30"
 image: {
     src: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Diseño de landing pages"
