@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "¿Quieres Saber Cómo Llegar a tu Audiencia Ideal con Publicidad en Línea?"
 snippet: "Descubre cómo alcanzar a tu audiencia ideal a través de estrategias efectivas de publicidad en línea. Identifica tácticas, herramientas recomendadas y consejos clave para optimizar tu estrategia y llegar a tu público objetivo. ¡Aprende a mejorar tu presencia digital y maximiza el impacto de tus campañas publicitarias en línea hoy mismo!"
-publishDate: "2023-11-27 09:35"
+publishDate: "2023-12-06 10:40"
 image: {
     src: "https://images.pexels.com/photos/954623/pexels-photo-954623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Audiencia ideal"
