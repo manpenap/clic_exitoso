@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Dominando el Análisis de Landing Pages: Guía Completa"
 snippet: "Descubre cómo el análisis de Landing Pages potencia tu estrategia digital. Conoce las métricas esenciales, herramientas y estrategias para optimizar tus páginas de destino. ¡Aprende a tomar decisiones efectivas con esta guía completa!"
-publishDate: "2023-12-09 12:04"
+publishDate: "2023-12-11 10:27"
 image: {
     src: "https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg",
     alt: "Analítica Web"
