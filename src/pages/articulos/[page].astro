@@ -16,8 +16,8 @@ export async function getStaticPaths({ paginate }) {
   publishedBlogEntries.sort(function (a, b) {
     return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
   });
-  // Genera páginas para nuestro array de astronautas, con 2 elementos por página
-  return paginate(publishedBlogEntries, { pageSize: 10 });
+  // Genera páginas para nuestro array de astronautas, con 10 elementos por página
+  return paginate(publishedBlogEntries, { pageSize: 6 });
 }
 
 // Todos los datos paginados se pasan en la prop "page"
@@ -35,21 +35,13 @@ const { page } = Astro.props;
       </Fragment>
     </Sectionhead>
 
-    <PageIndicator 
-      currentPage={page.currentPage} 
-      sizeNumber={page.lastPage}
-      prev = {page.url.prev ? page.url.prev: null}
-      next = {page.url.next ? page.url.next: null}
-
-    />
-
     <main class="mt-16 px-8">
-      <ul class="grid gap-16 max-w-4xl mx-auto">
+      <ul class="grid gap-8 mx-4 md:mx-auto mt-8 m-auto max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {
           page.data.map((blogPostEntry, index) => (
-            <li>
+            <li class="bg-slate-100 rounded-md p">
               <a href={`/blog/${blogPostEntry.slug}`}>
-                <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
+                <div class="grid gap-2 md:gap-4 items-center">
                   <Picture
                     src={blogPostEntry.data.image.src}
                     alt={blogPostEntry.data.image.alt}
@@ -61,9 +53,9 @@ const { page } = Astro.props;
                     position="center"
                     loading={index <= 2 ? "eager" : "lazy"}
                     decoding={index <= 2 ? "sync" : "async"}
-                    class="w-full rounded-md"
+                    class="w-full rounded-t-md"
                   />
-                  <div>
+                  <div class="px-4 pb-4">
                     <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
                       {blogPostEntry.data.category}
                     </span>
