@@ -4,34 +4,49 @@ import { Picture } from "@astrojs/image/components";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import PageIndicator from "@components/pageIndicator.astro";
 
-// Filter blog entries with 'draft: false' & date before current date
-const publishedBlogEntries = await getCollection("blog", ({ data }) => {
-  return !data.draft && data.publishDate < new Date();
-});
+// Generate a new path for every collection entry
+export async function getStaticPaths({ paginate }) {
+  const publishedBlogEntries = await getCollection("blog", ({ data }) => {
+    return !data.draft && data.publishDate < new Date();
+  });
 
-// Sort content entries by publication date
-publishedBlogEntries.sort(function (a, b) {
-  return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
-});
+  // Sort content entries by publication date
+  publishedBlogEntries.sort(function (a, b) {
+    return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
+  });
+  // Genera páginas para nuestro array de astronautas, con 2 elementos por página
+  return paginate(publishedBlogEntries, { pageSize: 10 });
+}
 
-let recentEntries = publishedBlogEntries.slice(0,6)
+// Todos los datos paginados se pasan en la prop "page"
+const { page } = Astro.props;
 ---
 
-<Layout title="Blog">
+<Layout title="Artículos del Blog">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Blog</Fragment>
+      <Fragment slot="title">Artículos del Blog</Fragment>
       <Fragment slot="desc">
         <h2 class="px-8" >
-          Acá escribimos sobre landing page y marketing digital para potenciar tu negocio
+          Página {page.currentPage} de todos los artículos
         </h2>
       </Fragment>
     </Sectionhead>
+
+    <PageIndicator 
+      currentPage={page.currentPage} 
+      sizeNumber={page.lastPage}
+      prev = {page.url.prev ? page.url.prev: null}
+      next = {page.url.next ? page.url.next: null}
+
+    />
+
     <main class="mt-16 px-8">
       <ul class="grid gap-16 max-w-4xl mx-auto">
         {
-          recentEntries.map((blogPostEntry, index) => (
+          page.data.map((blogPostEntry, index) => (
             <li>
               <a href={`/blog/${blogPostEntry.slug}`}>
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
@@ -66,13 +81,14 @@ let recentEntries = publishedBlogEntries.slice(0,6)
         }
       </ul>
 
-      <div class="text-center mt-20">
-        <a
-          href="/articulos/1"
-          class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition"
-          >Ver Todos los Artículos-></a
-        >
-      </div>
+      <PageIndicator 
+        currentPage={page.currentPage} 
+        sizeNumber={page.lastPage}
+        prev = {page.url.prev ? page.url.prev: null}
+        next = {page.url.next ? page.url.next: null}
+
+      />
+
     </main>
   </Container>
 </Layout>
