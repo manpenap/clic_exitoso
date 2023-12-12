@@ -14,6 +14,8 @@ const publishedBlogEntries = await getCollection("blog", ({ data }) => {
 publishedBlogEntries.sort(function (a, b) {
   return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
 });
+
+let recentEntries = publishedBlogEntries.slice(0,6)
 ---
 
 <Layout title="Blog">
@@ -29,7 +31,7 @@ publishedBlogEntries.sort(function (a, b) {
     <main class="mt-16 px-8">
       <ul class="grid gap-16 max-w-4xl mx-auto">
         {
-          publishedBlogEntries.map((blogPostEntry, index) => (
+          recentEntries.map((blogPostEntry, index) => (
             <li>
               <a href={`/blog/${blogPostEntry.slug}`}>
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
@@ -63,6 +65,14 @@ publishedBlogEntries.sort(function (a, b) {
           ))
         }
       </ul>
+      
+      <div class="text-center mt-16">
+        <a
+          href="/blog"
+          class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition"
+          >Ver Todos los Artículos -> </a
+        >
+      </div>
     </main>
   </Container>
 </Layout>
