@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Descubre Cómo Optimizar tu Tienda en Línea para Aumentar Ventas"
 snippet: "Explora técnicas avanzadas de optimización para tiendas online, desde SEO hasta mejoras en la experiencia de usuario. Aumenta tus ventas con estas estrategias efectivas."
-publishDate: "2023-12-13 09:35"
+publishDate: "2023-12-15 10:45"
 image: {
     src: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Optimizacion de tiendas online"
