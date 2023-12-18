@@ -1,8 +1,8 @@
 ---
-draft: true
-title: "Cómo Escribir una Contenido que Conquiste a tus Clientes: ¡Aprende Ya!"
+draft: false
+title: "Cómo Escribir Contenido que Conquiste a tus Clientes: ¡Aprende Ya!"
 snippet: "Domina el arte de la redacción persuasiva. Este artículo te guiará para crear contenido que capte la atención y motive a tu audiencia a tomar acción."
-publishDate: "2023-12-15 11:00"
+publishDate: "2023-12-18 11:21"
 image: {
     src: "https://images.pexels.com/photos/34601/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Cómo escribir Contenido Persuasivo"
