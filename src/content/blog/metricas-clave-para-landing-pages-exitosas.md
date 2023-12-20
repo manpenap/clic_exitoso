@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "¿Cuáles son las Métricas Clave para Landing Pages Exitosas?"
 snippet: "Métricas para Landing Pages: Aprende a optimizar y mejorar tu estrategia. Herramientas, análisis y consejos para el éxito de tus páginas."
-publishDate: "2023-12-20 12:04"
+publishDate: "2023-12-20 00:36"
 image: {
     src: "https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Métricas claves para landing pages"
