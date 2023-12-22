@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title:  "Convierte tu Web en un Favorito de Google"
 snippet: "Descubre cómo posicionar tu web como favorita en Google. Aprende estrategias efectivas para mejorar tu visibilidad y ranking en buscadores."
-publishDate: "2023-12-22 11:00"
+publishDate: "2023-12-22 10:40"
 image: {
     src: "https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Convierte tu Web en un Favorito de Google"
