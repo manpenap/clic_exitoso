@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "10 Estrategias para Generar Más Leads en tu Negocio Online"
 snippet: "Conoce las estrategias clave para aumentar la captación de leads en tu negocio digital y optimiza tu crecimiento."
-publishDate: "2023-12-27 12:00"
+publishDate: "2023-12-27 11:10"
 image: {
     src: "https://images.pexels.com/photos/1339845/pexels-photo-1339845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "10 estrategias para generar leads"
