@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title:  "Crea Landing Pages Perfectas con Nuestra Guía de SEO"
 snippet: "Descubre cómo optimizar tus Landing Pages para un SEO efectivo y conversiones más altas. Guía completa con estrategias y consejos de expertos."
-publishDate: "2023-12-29 11:00"
+publishDate: "2024-01-01 21:00"
 image: {
     src: "https://images.pexels.com/photos/2882652/pexels-photo-2882652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Landing Pages Perfectas"
