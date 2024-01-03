@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "El Arte de Sobresalir en la Web: Estrategias para Destacar Online"
 snippet: "Convierte tu presencia online en un referente. Estrategias únicas para sobresalir en diseño web, contenido atractivo y visibilidad SEO."
-publishDate: "2024-01-01 12:00"
+publishDate: "2024-01-03 16:31"
 image: {
     src: "https://images.pexels.com/photos/207983/pexels-photo-207983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "El Arte de Sobresalir en la Web"
