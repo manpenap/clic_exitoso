@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Mantén tu Audiencia Comprometida a Largo Plazo"
 snippet: "Descubre estrategias efectivas para mantener a tu audiencia comprometida a largo plazo. Consejos, tácticas y herramientas para fomentar el engagement duradero."
-publishDate: "2024-01-03 11:21"
+publishDate: "2024-01-08 10:34"
 image: {
     src: "https://images.pexels.com/photos/540528/pexels-photo-540528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Mantén tu Audiencia Comprometida a Largo Plazo"
