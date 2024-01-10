@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Potencia tus Resultados: La Mejor Landing para Móviles"
 snippet: "Eleva tu estrategia digital con una landing page móvil de alto rendimiento. Aprende técnicas comprobadas, ejemplos exitosos y estrategias de optimización para dispositivos móviles que impulsarán tus conversiones."
-publishDate: "2023-12-29 11:00"
+publishDate: "2024-01-10 10:05"
 image: {
     src: "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "La Mejor Landing para Móviles"
