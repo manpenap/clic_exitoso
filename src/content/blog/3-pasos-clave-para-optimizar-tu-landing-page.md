@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Aprende los 3 Pasos Clave para Impactar con Tu Landing Page ¡Empieza!"
 snippet: "Optimiza tu Landing Page con nuestros consejos profesionales. Domina los 3 pasos clave para impactar a tus visitantes desde el primer contacto. ¡Convierte más con una página de destino impecable!"
-publishDate: "2024-01-08 12:00"
+publishDate: "2024-01-15 11:03"
 image: {
     src: "https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Aprende los 3 Pasos Clave para Impactar con Tu Landing Page ¡Empieza!"
