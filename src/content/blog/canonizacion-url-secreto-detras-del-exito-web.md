@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Canonización de URL: El Secreto Detrás del Éxito Web"
 snippet: "Descubre el Poder Oculto de la Canonización de URL en nuestro Artículo SEO. Aprende las Estrategias Clave para Optimizar tu Sitio Web y Alcanzar el Éxito Online. ¡Sumérgete en el Secreto del SEO Ahora!"
-publishDate: "2024-01-24 10:05"
+publishDate: "2024-01-24 09:46"
 image: {
     src: "https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Canonización de URL: El Secreto Detrás del Éxito Web"
