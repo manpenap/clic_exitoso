@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: "Descubre los Secretos para una Estrategia de Email Exitosa"
 snippet: "Descubre los Secretos para una Estrategia de Email Exitosa y Eleva tu Marketing Digital. Aprende tácticas probadas en este artículo completo sobre email marketing."
-publishDate: "2024-01-21 22:26"
+publishDate: "2024-01-29 13:06"
 image: {
     src: "https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Descubre los Secretos para una Estrategia de Email Exitosa"
