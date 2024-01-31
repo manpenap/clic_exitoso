@@ -2,7 +2,7 @@
 draft: false
 title: "El Arte del Copywriting: Estrategias para Convencer y Aumentar Ventas"
 snippet: "Potencia tu presencia online con nuestro artículo sobre el arte del copywriting. Desde la importancia de conocer a tu audiencia hasta ejemplos exitosos, aprende a redactar mensajes que convierten. ¡Incrementa tus ventas con técnicas de persuasión comprobadas!"
-publishDate: "2024-01-31 16:31"
+publishDate: "2024-01-31 16:18"
 image: {
     src: "https://images.pexels.com/photos/4067126/pexels-photo-4067126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "El Arte del Copywriting: Estrategias para Convencer y Aumentar Ventas"
